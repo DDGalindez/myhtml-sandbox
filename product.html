@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <style>
+        table {
+            width: 60%; /* Set a width for the table to allow centering */
+            margin: 0 auto; /* This centers the table on the page */
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #0a0a0a;
+            padding: 8px;
+            text-align: center; /* Ensure text in cells is centered */
+        }
+        th {
+            background-color: #668caa;
+        }
+        tr:nth-child(odd) {
+            background-color: rgb(169, 230, 248);
+        }
+        tr:nth-child(even) {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Product Table</h1> <!-- Centered heading -->
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Availability</th>
+        </tr>
+        <tr>
+            <td>Napkin</td>
+            <td>Php 7.00</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Diaper</td>
+            <td>Php 11.00</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Rugby</td>
+            <td>Php 205.00</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Vulcaseal</td>
+            <td>Php 900.00</td>
+            <td>Available</td>
+        </tr>
+        <tr>
+            <td>Papel</td>
+            <td>Php 599.00</td>
+            <td>Available</td>
+        </tr>
+    </table>
+</body>
+</html>
